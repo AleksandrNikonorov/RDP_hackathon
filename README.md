@@ -1,38 +1,39 @@
-# Проект: Хакатон от компании RDP
+# Project: RDP Company Hackathon
 
-## Описание
+## Description
 
-В рамках хакатона, организованного компанией RDP, наша команда работала над решением трёх задач, связанных с анализом сетевого трафика. Проект включал задачи классификации и кластеризации сетевых протоколов, а также обнаружения точек изменения поведения во временных рядах сетевого трафика.
+In the RDP Company hackathon, our team tackled three challenges related to network traffic analysis. The project involved tasks for classifying and clustering network protocols, as well as detecting change points in the time series of network traffic.
 
-## Задачи проекта
+## Project Tasks
 
-1. **Классификация сетевых протоколов**
-   - Разработка модели для классификации сетевых протоколов на основе анализа трафика.
-   - Использовались методы машинного обучения, такие как случайный лес (Random Forest) и градиентный бустинг (CatBoost).
-   - Обучение и тестирование модели проводились на реальных данных сетевого трафика.
+1. **Network Protocol Classification**
+   - Developed a model to classify network protocols based on traffic analysis.
+   - Utilized machine learning methods such as Random Forest and gradient boosting (CatBoost).
+   - The model was trained and tested on real network traffic data.
 
-2. **Кластеризация протоколов**
-   - Применение методов кластеризации для группировки различных сетевых протоколов на основе характеристик трафика.
-   - Использовались алгоритмы K-Means и DBSCAN для выявления групп протоколов с похожими паттернами поведения.
+2. **Protocol Clustering**
+   - Applied clustering methods to group various network protocols based on traffic characteristics.
+   - Employed algorithms like K-Means and DBSCAN to identify groups of protocols with similar behavior patterns.
 
-3. **Поиск точки изменения поведения временного ряда трафика**
-   - Анализ временных рядов трафика компании для выявления точек изменения поведения.
-   - Применялись методы детектирования изменений, такие как метод CUSUM и другие подходы для анализа аномалий в данных.
+3. **Detection of Change Points in Network Traffic Time Series**
+   - Analyzed the company's traffic time series to identify points of behavioral change.
+   - Used change detection methods, such as the CUSUM method and other approaches for anomaly detection in the data.
 
-## Используемые технологии
+## Technologies Used
 
-- **Python** — основной язык программирования.
-- **pandas** / **numpy** — для обработки данных.
-- **scikit-learn** — для классификации и кластеризации.
-- **CatBoost** — для повышения точности классификации.
-- **matplotlib** / **seaborn** — для визуализации данных.
-- **ruptures** — для детектирования точек изменения в временных рядах.
+- **Python** — primary programming language.
+- **pandas** / **numpy** — for data processing.
+- **scikit-learn** — for classification and clustering.
+- **CatBoost** — to enhance classification accuracy.
+- **matplotlib** / **seaborn** — for data visualization.
+- **ruptures** — for detecting change points in time series.
 
-## Структура проекта
+## Project Structure
 
-- `RDP` — классификация сетевых протоколов градиентными методами
-- `RDP Временные ряды` — задание 3, анализ временных рядов различными методами - кластеризацией временных рядов, скользящее среднее и прочее
-- `RDP Кластеризация` — задание 2, кластеризация классическим KMeans
-- `Report` - презентация с хакатона
-- `README.md` — описание проекта.
+- `RDP` — classification of network protocols using gradient methods.
+- `RDP Time Series` — Task 3: analysis of time series using various methods, such as time series clustering, moving averages, and more.
+- `RDP Clustering` — Task 2: clustering using classical KMeans.
+- `Report` — presentation from the hackathon.
+- `README.md` — project description.
+
 
